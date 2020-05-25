@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbarparent"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elev_addbar"
+    android:theme="@style/ToolBarStyle"
+    app:contentInsetStart="0dp"
+    app:contentInsetEnd="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="0.2"
+            android:layout_gravity="center"
+            android:src="@drawable/pet_white"
+            android:contentDescription="@string/image"
+            android:visibility="visible"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/app_name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="0.6"/>
+
+        <RelativeLayout
+            android:id="@+id/lyStar"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.2">
+
+            <ImageView
+                android:id="@+id/imgstar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/star_5"
+                android:contentDescription="@string/image"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/last_five"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_alignStart="@+id/imgstar"
+                android:layout_alignTop="@+id/imgstar"
+                android:layout_alignEnd="@+id/imgstar"
+                android:layout_alignBottom="@+id/imgstar"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

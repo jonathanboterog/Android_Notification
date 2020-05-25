@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/cvDetailPhoto"
+    app:cardCornerRadius="@dimen/corner_radius_cardview">
+
+    <include
+        android:id="@+id/incActionbarDetail"
+        layout="@layout/actionbar">
+    </include>
+
+    <ImageView
+        android:id="@+id/imgDetailPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cateyes"
+        android:contentDescription="@string/image"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/cardview_padding">
+
+        <TextView
+            android:id="@+id/tvDetailRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/rating"
+            android:textSize="@dimen/cardview_name_fontsize"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

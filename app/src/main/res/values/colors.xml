@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0277bd</color>
+    <color name="colorPrimaryDark">#004c8c</color>
+    <color name="colorPrimaryLight">#58a5f0</color>
+    <color name="colorPrimaryLightLight">#D0D9E3</color>
+    <color name="colorAccent">#E8FF8C67</color>
+    <color name="colorAccentDark">#c75b39</color>
+    <color name="colorAccentLight">#ffbb93</color>
+    <color name="colorAccentLightLight">#FFF6F1</color>
+
+    <color name="colorItemRecyclerView">#4BCBDF</color>
+    <color name="colorBackRecyclerView">#555555</color>
+
+</resources>
