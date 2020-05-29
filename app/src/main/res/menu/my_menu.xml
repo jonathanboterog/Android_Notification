@@ -13,4 +13,15 @@
         android:orderInCategory="101"
         android:title="@string/about" />
 
+    <item
+        android:id="@+id/action_account"
+        android:icon="@drawable/options"
+        android:orderInCategory="101"
+        android:title="@string/account" />
+
+    <item
+        android:id="@+id/action_notifications"
+        android:icon="@drawable/options"
+        android:orderInCategory="101"
+        android:title="@string/notifications" />
 </menu>

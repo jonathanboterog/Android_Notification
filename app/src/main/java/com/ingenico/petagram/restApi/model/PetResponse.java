@@ -5,6 +5,8 @@ import java.util.ArrayList;
 
 public class PetResponse {
 
+    ArrayList<PetApi> pets;
+
     public ArrayList<PetApi> getPets() {
         return pets;
     }
@@ -12,7 +14,5 @@ public class PetResponse {
     public void setPets(ArrayList<PetApi> pets) {
         this.pets = pets;
     }
-
-    ArrayList<PetApi> pets;
 
 }

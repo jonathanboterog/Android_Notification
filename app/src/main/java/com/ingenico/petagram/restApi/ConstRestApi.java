@@ -2,6 +2,7 @@ package com.ingenico.petagram.restApi;
 
 public final class ConstRestApi {
 
+    /*Instagram API*/
     public static final String URL_ROOT = "https://graph.instagram.com/";
     public static final String KEY_ACCESS_TOKEN = "&access_token=";
     public static final String KEY_FIELDS = "?fields=";
@@ -14,5 +15,4 @@ public final class ConstRestApi {
     public static final String URL_GET_RECENT_MEDIA = GET_INFO_MEDIA +
             KEY_FIELDS + KEY_FIELDS_VALUES +
             KEY_ACCESS_TOKEN + KEY_ACCESS_TOKEN_VALUE;
-
 }

@@ -6,6 +6,8 @@
     <string name="last_five">5</string>
     <string name="about">Acerca de</string>
     <string name="contact">Contacto</string>
+    <string name="account">Configurar Cuenta</string>
+    <string name="notifications">Recibir Notificaciones</string>
 
     <string name="pimage">Imagen</string>
     <string name="pname">Nombre</string>
@@ -15,10 +17,19 @@
     <string name="pDetailUrl">detailUrl</string>
     <string name="pDetailPhoto">detailPhoto</string>
 
+    <string name="mySharedPref">MyPref</string>
+    <string name="key_account">key_account</string>
+
+    <string name="channel_name">channel_name</string>
+    <string name="channel_desc">channel_desc</string>
+
+
+    <string name="form_user">Escribe tu usuario</string>
     <string name="form_name">Nombre completo</string>
     <string name="form_email">Email</string>
     <string name="form_message">Mensaje</string>
     <string name="bt_send">Enviar mensaje</string>
+    <string name="bt_save_account">Guardar Cuenta</string>
 
     <string name="about_developer">Petagram by: Jonathan Botero Gomez</string>
     <string name="about_support">soporte: jonathanboterog@gmail.com</string>

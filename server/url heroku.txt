@@ -1,0 +1,12 @@
+app-> 		https://polar-everglades-07410.herokuapp.com/
+gitapp -> 	https://git.heroku.com/polar-everglades-07410.git
+
+comands:
+
+heroku logs --tail
+npm install --save --save-exact pack
+
+git add .
+git commit -m "Add cool face API"
+git push heroku master
+heroku open cool
